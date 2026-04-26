@@ -6,7 +6,7 @@ const io = require('socket.io')(http);
 // 🔥 MongoDB
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://kewal_12:Kewal%400704@cluster1.wopzqpe.mongodb.net/chatDB")
+mongoose.connect("dnknvdkjnvkjfdnvkjfbhjfdnfkhnf dkjcnfdkjdkjfvnkjvnkj")
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
