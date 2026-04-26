@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp UI Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="user-info">
+      <img src="https://i.pravatar.cc/40" class="avatar">
+      <span>Chat Room</span>
+    </div>
+  </div>
+
+  <!-- 🔥 Username Input -->
+  <div class="username-area">
+    <input id="username" type="text" placeholder="Enter your name...">
+  </div>
+
+  <!-- Chat Area -->
+  <div id="chat-box" class="chat-box"></div>
+
+  <!-- Input -->
+  <div class="input-area">
+    <input id="message" type="text" placeholder="Type a message...">
+    <button onclick="sendMessage()">➤</button>
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
